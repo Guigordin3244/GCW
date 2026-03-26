@@ -1,8 +1,8 @@
 <h2>Objetivo</h2><br/>
 
-Telas:<br/>
+<h2>Telas:</h2><br/>
 Avaliação,filmes,index e selmão<br/>
-Framework:<br/>
+<h2>Framework:</h2><br/>
 Materialize<br/>
 <ul>LP
 <li>Front:</li>
