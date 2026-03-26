@@ -1,0 +1,278 @@
+.hero{
+  height:100vh;
+  background-image:url("img/houselove.jpeg");
+  background-size:cover;
+  background-position:center;
+}
+
+.overlay{
+  height:100%;
+  background:linear-gradient(
+    to right,
+    rgba(0,0,0,0.85),
+    rgba(0,0,0,0.4)
+  );
+  display:flex;
+  align-items:center;
+}
+
+.logo{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  margin: 0; 
+}
+
+.brand-logo{
+  display: flex !important;
+  align-items: center;
+  height: 100%;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.site-name{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1;
+}
+
+.site-name:hover{
+  color:#66c0f4;
+}
+
+
+.menu-item{
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.menu-item:hover{
+  color: #66c0f4;
+  transform: scale(1.1);
+}
+
+
+.hero h4{
+  font-weight:300;
+}
+
+.hero p{
+  margin:4px 0;
+}
+
+.imagem-filme{
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  border-radius:8px;
+}
+
+.footer-steam {
+  background-color: #171a21;
+  color: #c7d5e0;
+  padding: 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-logo h5 {
+  color: #66c0f4;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-links div {
+  min-width: 150px;
+}
+
+.footer-links h6 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-links a {
+  display: block;
+  color: #c7d5e0;
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+  }
+}
+.catalogo{
+background:#141414;
+color:white;
+}
+
+.container-filmes{
+padding:30px;
+}
+
+.titulo-categoria{
+margin-top:40px;
+margin-bottom:15px;
+font-weight:600;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.linha-filmes{
+display:flex;
+overflow-x:auto;
+gap:15px;
+padding-bottom:10px;
+}
+
+.linha-filmes img{
+width:180px;
+border-radius:6px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.linha-filmes img:hover{
+transform:scale(1.1);
+}
+
+.linha-filmes::-webkit-scrollbar{
+display:none;
+}
+.pagina-serie {
+  background-color: #111;
+}
+
+.hero-serie{
+  position: relative;
+  min-height: 100vh;
+  background-image:url("img/selmo.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+.overlay-serie{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.85),
+    rgba(0,0,0,0.6)
+  );
+  display: flex;
+  align-items: center;
+}
+
+.conteudo-serie{
+  width: 100%;
+}
+
+.imagem-serie{
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.6);
+  max-width: 100%;
+}
+
+.titulo-serie{
+  font-size:28px;
+  font-weight:bold;
+}
+
+.descricao-serie{
+  font-size:15px;
+  line-height:1.6;
+  color:#ddd;
+}
+
+.video-serie iframe{
+  width: 100%;
+  height: 250px;
+  border-radius:10px;
+}
+
+.nav-serie{
+  background: rgba(0,0,0,0.9);
+}
+
+.footer-serie{
+  margin-top: 0;
+}
+.pagina-avaliacoes{
+  background-color:#111;
+  color:white;
+}
+
+.nav-avaliacoes{
+  background: rgba(0,0,0,0.9);
+}
+
+.avaliacoes-container{
+  margin-top:40px;
+}
+
+.titulo-avaliacoes{
+  margin-bottom:30px;
+  font-weight:bold;
+}
+
+.avaliacao-card{
+  background:#1b1b1b;
+  border-radius:10px;
+  overflow:hidden;
+  transition:0.3s;
+}
+
+.avaliacao-card:hover{
+  transform:scale(1.05);
+}
+
+.avaliacao-card img{
+  height:250px;
+  object-fit:cover;
+}
+
+.avaliacao-card .card-content{
+  color:#ddd;
+}
+
+.nota{
+  color:#ffd700;
+  margin:10px 0;
+  font-size:18px;
+}
+
+.footer-avaliacoes{
+  margin-top:50px;
+}
