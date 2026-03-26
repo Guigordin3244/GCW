@@ -12,6 +12,6 @@ Materialize<br/>
 Cronologia<br/>
 
 Dedicação:<br/>
-Dedicado ao Anselmo
+Dedicado ao Anselmo<br/>
 Autoria:<br/>
 Guilherme Camargo Ramos
