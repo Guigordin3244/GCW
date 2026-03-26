@@ -1,9 +1,11 @@
-Objetivo<br/>
+<h2>Objetivo</h2><br/>
+
 Telas <br/>
 Framework<br/>
-LP<br/>
-Front:
-Back:
+<ul>LP
+<li>Front:</li>
+<li>Back:</li>
+</ul>
 Cronologia<br/>
 Dedicação<br/>
 Autoria<br/>
